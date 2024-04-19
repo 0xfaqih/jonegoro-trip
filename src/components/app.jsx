@@ -102,19 +102,24 @@ const MyApp = () => {
         <Views tabs className="safe-areas">
           {/* Tabbar for switching views-tabs */}
           <Toolbar tabbar icons bottom>
-            <Link tabLink="#view-home" tabLinkActive iconIos="f7:house_fill" iconMd="material:home" text="Home" />
-            <Link tabLink="#view-catalog" iconIos="f7:square_list_fill" iconMd="material:view_list" text="Catalog" />
-            <Link tabLink="#view-settings" iconIos="f7:gear" iconMd="material:settings" text="Settings" />
+            <Link tabLink="#view-home" tabLinkActive iconIos="f7:house_fill" iconMd="material:home"/>
+            <Link tabLink="#view-search" iconIos="f7:square_list_fill" iconMd="material:search" />
+            <Link tabLink="#view-library" iconIos="f7:gear" iconMd="material:collections_bookmark" />
+            <Link tabLink="#view-person" iconIos="f7:gear" iconMd="material:person" />
           </Toolbar>
 
           {/* Your main view/tab, should have "view-main" class. It also has "tabActive" prop */}
           <View id="view-home" main tab tabActive url="/" />
 
-          {/* Catalog View */}
-          <View id="view-catalog" name="catalog" tab url="/catalog/" />
+          {/* search View */}
+          <View id="view-search" name="search" tab url="/search/" />
 
-          {/* Settings View */}
-          <View id="view-settings" name="settings" tab url="/settings/" />
+          {/* library View */}
+          <View id="view-library" name="library" tab url="/library/" />
+
+          {/* person view */}
+          <View id="view-person" name="person" tab url="/person/" />
+
 
         </Views>
 

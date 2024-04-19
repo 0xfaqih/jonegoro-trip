@@ -9,6 +9,9 @@ import SettingsPage from '../pages/settings.jsx';
 import DynamicRoutePage from '../pages/dynamic-route.jsx';
 import RequestAndLoad from '../pages/request-and-load.jsx';
 import NotFoundPage from '../pages/404.jsx';
+import SearchPage from '../pages/search.jsx';
+import LibraryPage from '../pages/library.jsx';
+import PersonPage from '../pages/person.jsx';
 
 var routes = [
   {
@@ -16,8 +19,16 @@ var routes = [
     component: HomePage,
   },
   {
-    path: '/about/',
-    component: AboutPage,
+    path: '/search/',
+    component: SearchPage,
+  },
+  {
+    path: '/library',
+    component: LibraryPage,
+  },
+  {
+    path: '/person/',
+    component: PersonPage,
   },
   {
     path: '/form/',

@@ -69,3 +69,8 @@ body {
    margin: 0;
    padding: 0;
 }
+
+.toolbar {
+   height: 53px;
+   background-color: var(--white-color);
+}
