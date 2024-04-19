@@ -32,8 +32,8 @@ const HomePage = () => (
       </NavRight>
     </Navbar>
 
-    <div className="empty-box-nav">
-    </div>
+    <div className="empty-box-nav"></div>
+    <div className="empty-box-white"></div>
 
     {/* Page content */}
     <div className="main-content">
