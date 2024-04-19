@@ -1,0 +1,84 @@
+#card-recom-container {
+   display: flex;
+   padding: 0 30px;
+   flex-direction: column;
+}
+
+.recom-header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
+}
+
+.recom-header > h1 {
+   font-size: 18px;
+   font-weight: 500;
+}
+
+.recom-header > p {
+   font-size: 10px;
+   font-weight: 300;
+}
+
+.card-recom {
+   height: 116px;
+   margin: 0;
+}
+
+.card-recom-content {
+   display: flex;
+   align-items: center;
+   padding: 5px;
+}
+
+.card-recom-content > img {
+   width: 90px;
+   height: 90px;
+   object-fit: cover;
+   border-radius: 8px;
+}
+
+.card-recom-content-inner {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   height: 90px;
+}
+
+.card-recom-content-inner .recom-location img {
+   width: 17px;
+   height: 17px;
+   margin-left: 15px;
+}
+
+.card-recom-content-inner .recom-rating img {
+   width: 15px;
+   height: 15px;
+   margin-left: 16px;
+}
+
+.card-recom-content-inner > h4 {
+   font-size: 18px;
+   font-weight: 500;
+   margin: 0 15px;
+}
+
+.card-recom-content-inner .recom-location,
+.card-recom-content-inner .recom-rating
+{
+   display: flex;
+   align-items: center;
+}
+
+.card-recom-content-inner .recom-location p,
+.card-recom-content-inner .recom-rating p
+{
+   font-size: 12px;
+   margin: 0;
+   margin-left: 5px;
+}
+
+.card-recom-content-inner .recom-location p {
+   font-weight: 300;
+}

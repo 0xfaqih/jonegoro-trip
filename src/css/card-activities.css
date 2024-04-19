@@ -1,0 +1,37 @@
+#card-activities-container {
+   padding: 5px 20px;
+   display: flex;
+   overflow-x: scroll;
+}
+
+#card-activities-container::-webkit-scrollbar {
+   display: none; 
+ }
+
+.card-activities {
+   padding: 10px;
+   width: 213px;
+   margin: 0 0;
+}
+
+.card-activities h4
+{
+   margin: 10px 7px;
+}
+
+.footer-clock {
+   display: flex;
+   align-items: center;
+   margin: 0 7px;
+}
+
+.footer-clock span {
+   font-size: 10px;
+   color: var(--gray-color);
+}
+
+.footer-clock .material-icons {
+   font-size: 17px;
+   color: var(--gray-color);
+   margin-right: 3px;
+}
