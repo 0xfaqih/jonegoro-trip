@@ -17,7 +17,10 @@ import {
 } from 'framework7-react';
 
 import CardActivities from './components/card-activities';
-import CardRecom from './components/card-recom';
+import KayanganApi from './components/wisata-alam/kayangan-api';
+import BanyuKuning from './components/wisata-alam/banyu-kuning';
+import Growgoland from './components/wisata-alam/growgoland';
+import TeksasWonocolo from './components/wisata-alam/teksas-wonocolo';
 
 const HomePage = () => (
   <Page name="home">
@@ -56,9 +59,11 @@ const HomePage = () => (
           <p>Tampilkan Semua</p>
         </div>
 
-        <CardRecom/>
-        <CardRecom/>
-        <CardRecom/>
+        <KayanganApi/>
+        <BanyuKuning/>
+        <Growgoland/>
+        <TeksasWonocolo/> 
+        
       </div>
     </div>
   </Page>

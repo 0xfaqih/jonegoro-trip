@@ -4,9 +4,13 @@ import {
   Navbar,
   NavLeft,
   NavTitle,
+  Searchbar,
   NavRight,
   Link,
 } from 'framework7-react';
+
+import SearchBar from './components/searchbar';
+
 
 const SearchPage = () => (
   <Page name="search">
@@ -20,14 +24,19 @@ const SearchPage = () => (
          <Link></Link>
       </NavRight>
     </Navbar>
+    
 
     <div className="empty-box-nav"></div>
     <div className="empty-box-white"></div>
 
     {/* Page content */}
-    <div className="main-content">
-      <p>j</p>
+   
+    <div className="search-bar-container">
+    <SearchBar/>
    </div>
+
+   
   </Page>
 );
+
 export default SearchPage;
